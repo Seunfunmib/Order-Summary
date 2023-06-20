@@ -12,7 +12,7 @@
 
 </head>
 <body class="overflow-hidden">
-  <main class="h-screen grid place-content-center bg-pale-blue py-8 px-4 m-auto">
+  <main class="h-screen grid place-content-center bg-pale-blue py-8 px-4 m-auto sm:w-[70%]">
     <div class="flex flex-col bg-white rounded-lg h-[80vh]">
       <div 
         class="h-[30vh] bg-main-img bg-cover rounded-t-lg">
@@ -23,33 +23,43 @@
         Order Summary
       </div>
     <div 
-      class=" mx-auto max-w-[80%] text-center">
+      class=" mx-auto max-w-[90%] text-center">
       <div class=" text-desaturated-blue font-red-hat-display leading-6">      
         You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!
       </div>
-      <div 
-        class="flex flex-col py-5 gap-y-5">
-          <div 
-            class="p-2 bg-pale-blue bg-music-img bg-no-repeat text-xl font-bold rounded-lg">
-            Annual Plan 
-          <span class="">
-            $59.99/year
-          </span>
-          <div 
-            class="underline">
-            Change
+      <div class="flex flex-col py-5 gap-y-5">
+        <div class="p-4 max-w-[100%] bg-very-pale-blue rounded-lg flex items-center">
+          <div class="bg-music-img bg-no-repeat bg-contain p-6 sm:w-[10%]"></div>
+          <div class="flex ml-6 flex-grow space-x-20">
+            <div class="font-red-hat-display text-dark-blue font-bold flex flex-col self-start sm:justify-start">
+              Annual Plan 
+              <span class="text-desaturated-blue">
+                $59.99/year
+              </span>
+            </div>
+            <div 
+              class="underline font-red-hat-display text-bright-blue font-bold self-end">
+              <div 
+                  class="flex justify-end  pr-6 pb-3 sm:self-end hover:cursor-pointer hover:text-desaturated-blue">
+                Change</div>
+            </div>
           </div>
-          </div>
-          
+        </div>
+      </div>
+      
+        <div 
+            class=" flex flex-col">
           <button 
-            class="p-2 bg-bright-blue shadow-lg shadow-blue-500/50 text-white font-red-hat-display leading-9 rounded-lg">
+            class="p-2 bg-bright-blue shadow-lg shadow-blue-500/50 text-white font-red-hat-display leading-9 rounded-lg hover:cursor-pointer hover:bg-desaturated-blue"">
             Proceed to Payment
           </button>
           <button 
-            class="text-desaturated-blue  font-red-hat-display font-[700]">
+            class="text-desaturated-blue m-7  font-red-hat-display font-[700] hover:cursor-pointer hover:text-black">
             Cancel Order
           </button>
+        </div>
+
       </div>
     </div>
 

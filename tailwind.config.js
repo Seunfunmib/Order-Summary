@@ -17,6 +17,7 @@ module.exports = {
          "bright-blue":"#3829e0",
         "pale-blue": "#e0e8ff",
         "desaturated-blue":"#7280a7",
+        "dark-blue":"#1f2f56",
       },
       backgroundImage:{
         "main-img":"url('/images/illustration-hero.svg')",
